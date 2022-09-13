@@ -44,7 +44,7 @@ app.use(function(err, req, res, next) {
   })
 });
 
-app.listen(process.env.PORT || 5000, ()=>{console.log("server statrted at 5000")})
+app.listen(process.env.PORT || 4675, ()=>{console.log("server statrted at 5000")})
 
 
 module.exports = app;
